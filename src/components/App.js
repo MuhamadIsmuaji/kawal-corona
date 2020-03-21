@@ -1,7 +1,8 @@
 import './style.css';
 import React from 'react';
-import kawalcorona from '../api/kawalcorona';
+import axios from 'axios';
 import LiveData from './LiveData';
+import LiveGlobal from './LiveGlobal';
 
 class App extends React.Component {
   render() {
@@ -26,13 +27,18 @@ class App extends React.Component {
         </div>
 
         <div className="ui main text container">
-          <h2 class="ui header">
-            Live Data Corona Virus
-            <div class="sub header">Jaga Diri Baik dari Virus</div>
+          <h2 className="ui header">
+            Live Data Corona Virus Global
+            
           </h2>
-          <div class="ui divider"></div>
+          <div className="ui divider"></div>
           <LiveData />
-          
+          <div className="ui divider"></div>
+          <h2 className="ui header">
+            Live data per Negara
+            
+          </h2>
+          <LiveGlobal />
         </div>
 
         <div className="ui inverted vertical footer segment">

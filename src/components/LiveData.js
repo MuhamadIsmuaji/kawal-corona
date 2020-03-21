@@ -25,7 +25,7 @@ class LiveData extends React.Component {
         return (
             <div>
               <div class="ui circular segment">
-                 <h2 class="ui header">
+                  <h2 class="ui header">
                   {this.state.positif.name}
                   <div class="sub header">{this.state.positif.value} Orang</div>
                   </h2>
