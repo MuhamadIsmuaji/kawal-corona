@@ -1,2 +1,0 @@
-# kawal-corona
-Scrapping
