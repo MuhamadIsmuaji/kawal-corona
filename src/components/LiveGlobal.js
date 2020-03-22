@@ -27,15 +27,14 @@ class LiveGlobal extends React.Component {
                   <tbody>
                     {this.state.list.map(list => (
                       <tr>
-                        <td data-label="ID">{}</td>
-                        <td data-label="Negara">{this.state.list.Country_Region}</td>
-                        <td data-label="Positif">{this.state.list.Confirmed}</td>
-                        <td data-label="Meninggal">{this.state.list.Deaths}</td>
-                        <td data-label="Sembuh">{this.state.list.Recovered}</td>
+                        <td data-label="ID">{list.attributes.OBJECTID}</td>
+                        <td data-label="Negara">{list.attributes.Country_Region}</td>
+                        <td data-label="Positif">{list.attributes.Confirmed}</td>
+                        <td data-label="Meninggal">{list.attributes.Deaths}</td>
+                        <td data-label="Sembuh">{list.attributes.Recovered}</td>
                       </tr>
                     ))}
-                  </tbody>
-                    
+                  </tbody>                   
                 </table>
             </div>
         );
