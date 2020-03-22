@@ -7,12 +7,12 @@ import LiveGlobal from './LiveGlobal';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <body>
         <div className="ui fixed inverted menu">
           <div className="container">
             <a href="#" className="header item">
               <img className="logo" src="assets/logo/coronaicon.png" />
-              BURKAS INFO
+              JAYAPURA DEV
             </a>
             <a href="#" className="item">Beranda</a>
             <div className="ui simple dropdown item">
@@ -42,17 +42,48 @@ class App extends React.Component {
         </div>
 
         <div className="ui inverted vertical footer segment">
-          <div className="ui inverted section divider">
-            <img src="assets/images/logo.png" className="ui centered mini image" />
-            <div className="ui horizontal inverted small divided link list">
-              <a className="item" href="#">Site Map</a>
-              <a className="item" href="#">Contact Us</a>
-              <a className="item" href="#">Terms and Conditions</a>
-              <a className="item" href="#">Privacy Policy</a>
+          <div className="ui center aligned container">
+            <div className="ui stackable inverted divided grid">
+              <div className="three wide column">
+                <h4 class="ui inverted header">API Services</h4>
+                  <div class="ui inverted link list">
+                    <a href="http://api.kawalcorona.com" class="item" target="_blank">Global Data</a>
+                    <a href="http://api.kawalcorona.com/positif/" class="item" target="_blank">Global Positif</a>
+                    <a href="http://api.kawalcorona.com/meninggal" class="item" target="_blank">Global Meniggal</a>
+                    <a href="http://api.kawalcorona.com/sembuh" class="item" target="_blank">Global Sembuh</a>
+                  </div>
+              </div>
+              <div class="three wide column">
+                <h4 class="ui inverted header">Websait</h4>
+                <div class="ui inverted link list">
+                  <a href="https://kawalcorona.com" class="item">Kawal Corona</a>
+                  <a href="https://hack.co.id/" class="item">Ethical Hacker Indonesia</a>
+                  
+                </div>
+              </div>
+              <div class="three wide column">
+                <h4 class="ui inverted header">Hotline Corona</h4>
+                <div class="ui inverted link list">
+                  <a href="#" class="item">021-5210-411</a>
+                  <a href="#" class="item">0812-1212-3119</a>
+                </div>
+              </div>
+              <div class="seven wide column">
+                <h4 class="ui inverted header">React Dev By</h4>
+                <p>Michael.</p>
+              </div>
+              
+            </div>
+            <div class="ui inverted section divider"></div>
+            <img src="assets/images/logo.png" class="ui centered mini image" />
+            <div class="ui horizontal inverted small divided link list">
+              <a class="item" href="http://github.om/ekhel/kawal-corona">Join Repository</a>
+              <a class="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Join Gitter</a>
+             
             </div>
           </div>
         </div>
-      </div>
+      </body>
     );
   }
 
