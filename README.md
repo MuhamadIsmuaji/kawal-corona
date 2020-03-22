@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------
 
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dev-ua/reactjs)
+[![Gitter](https://badges.gitter.im/jayapura_react/community.svg)](https://gitter.im/jayapura_react/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## System Requirements :
 * Bahasa Utama :
