@@ -2,6 +2,7 @@
 ----------------------------------------------------------------------------------
 
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/dev-ua/reactjs)
 
 ## System Requirements :
 * Bahasa Utama :
