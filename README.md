@@ -2,10 +2,11 @@
 ----------------------------------------------------------------------------------
 
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
-[![Gitter](https://badges.gitter.im/jayapura_react/community.svg)](https://gitter.im/jayapura_react/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/jayapura_dev/react.svg)](https://gitter.im/jayapura_dev/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## System Requirements :
 * Bahasa Utama :
+  - Node JS
   - JavaScripts
 
 * Framework :
@@ -17,7 +18,7 @@
 * Template :
   - Frontend ![Semantic-ui](https://semantic-ui.com)
 
-* HOST PaAs
+* HOST PaaS
   - Github Pages
 
 ------------------------------------------------------------------------
