@@ -29,7 +29,7 @@ class App extends React.Component {
         <div className="ui main text container2">
           <div className="ui segment">
             <h3 className="ui header">
-              <i class="globe icon"></i> Live Data Penyebaran Virus Corona (Covid 19) Globe
+              <i className="globe icon"></i> Live Data Penyebaran Virus Corona (Covid 19) Dunia
             </h3>
             <LiveData />
           </div>
@@ -38,7 +38,7 @@ class App extends React.Component {
           <span></span>
           <div className="ui segment">
             <h3 className="ui header">
-              Live data per Negara
+              <i className="globe icon"></i> Live data per Negara
             </h3>
             <LiveGlobal />
           </div>
@@ -47,7 +47,7 @@ class App extends React.Component {
           <span></span>
           <div className="ui segment">
             <h3 className="ui header">
-              Live Data Indonesia (Provinsi)
+              <i className="id flag"></i> Live Data Indonesia Per Provinsi
             </h3>
             <LiveProvinsi />
           </div>
