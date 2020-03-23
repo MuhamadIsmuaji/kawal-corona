@@ -38,18 +38,18 @@ class App extends React.Component {
           <span></span>
           <div className="ui segment">
             <h3 className="ui header">
-              <i className="globe icon"></i> Live Data per Negara
+              <i className="globe icon"></i> Live Data Indonesia Per Provinsi
             </h3>
-            <LiveGlobal />
+            <LiveProvinsi />
           </div>
           <div className="ui divider"></div>
           <span></span>
           <span></span>
           <div className="ui segment">
             <h3 className="ui header">
-              <i className="id flag"></i> Live Data Indonesia Per Provinsi
+              <i className="id flag"></i> Live Data Per Negara
             </h3>
-            <LiveProvinsi />
+            <LiveGlobal />
           </div>
         </div>
 
