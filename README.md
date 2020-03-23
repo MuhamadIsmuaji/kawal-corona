@@ -115,5 +115,7 @@
 * Halaman :
   - Fetch Global Data
   - Fetch Global Data Per Negara
+  - Fetch Data Indonesia
+  - Fetch Data Indonesia Per Provinsi
 
 
