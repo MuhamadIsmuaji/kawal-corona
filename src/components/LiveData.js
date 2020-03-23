@@ -33,7 +33,7 @@ class LiveData extends React.Component {
                 <div className="four wide column">
                   <div className="ui fluid card">
                     <div className="image">
-                      <img src="assets/icon/bersedih.jpg"/>
+                      <img src="assets/icon/bersedih.jpg" alt="bersedih"/>
                     </div>
                     <div className="content">
                       <a href="t" className="header">{this.state.positif.name}</a>
@@ -47,7 +47,7 @@ class LiveData extends React.Component {
                  <div className="four wide column">
                   <div className="ui fluid card">
                     <div className="image">
-                      <img src="assets/icon/gembira.jpg"/>
+                      <img src="assets/icon/gembira.jpg" alt="gembira"/>
                     </div>
                     <div className="content">
                       <a href="t" className="header">{this.state.sembuh.name}</a>
@@ -61,7 +61,7 @@ class LiveData extends React.Component {
                 <div className="four wide column">
                   <div className="ui fluid card">
                     <div className="image">
-                      <img src="assets/icon/menangis.jpg"/>
+                      <img src="assets/icon/menangis.jpg" alt="menangis"/>
                     </div>
                     <div className="content">
                       <a href="t" className="header">{this.state.meninggal.name}</a>
@@ -75,7 +75,7 @@ class LiveData extends React.Component {
                 <div className="four wide column">
                   <div className="ui fluid card">
                     <div className="image">
-                      <img src="assets/icon/indonesia.jpg"/>
+                      <img src="assets/icon/indonesia.jpg" alt="indonesia"/>
                     </div>
                     <div className="content">
                       <a href="t" className="header">{this.state.indonesia.name}</a>
