@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kawal-corona/precache-manifest.ff59592ba7920c5368967c9508472bc4.js"
+  "/kawal-corona/precache-manifest.b34e58075ea72f1309bf8e1eff327de1.js"
 );
 
 self.addEventListener('message', (event) => {
