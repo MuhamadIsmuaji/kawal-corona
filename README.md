@@ -30,7 +30,7 @@
   - [Ethical Hacker Indonesia](https://hack.co.id)
 
 * API Services :
-  - [Data Indonesia : https://api.kawalcoroan.com/indonesia](https://api.kawalcorona.com/indonesia)
+  - [Data Indonesia : https://api.kawalcorona.com/indonesia](https://api.kawalcorona.com/indonesia)
 
     ```javascripts
     [
@@ -42,8 +42,8 @@
         }
     ]
     ```
-    
-  - [Data Provinsi : https://api.kawalcoroan.com/indonesia/provinsi](https://api.kawalcorona.com/indonesia/provinsi)
+
+  - [Data Provinsi : https://api.kawalcorona.com/indonesia/provinsi](https://api.kawalcorona.com/indonesia/provinsi)
 
     ```javascripts
     [
@@ -79,7 +79,7 @@
         }
     ]			
     ```
-
+    
   - [Data Global Positif : https://api.kawalcorona.com/positif/](https://api.kawalcorona.com/positif)
 
     ```javascripts
