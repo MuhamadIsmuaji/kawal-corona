@@ -26,13 +26,85 @@
 ## Sumber WEB dan API :
 
 * WEB :
-  - [Kawal Corona - Ethical Hacker Indonesia](https://kawalcorona.com)
+  - [Kawal Corona](https://kawalcorona.com)
+  - [Ethical Hacker Indonesia](https://hack.co.id)
 
 * API Services :
+  - [Indonesia](https://api.kawalcorona.com/indonesia)
+
+    ```javascripts
+       [
+        {
+          "name": "Indonesia",
+          "positif": "514",
+          "sembuh": "29",
+          "meninggal": "48"
+        }
+      ]
+    ```
+  - [Provinsi](https://api.kawalcorona.com/indonesia/provinsi)
+
+    ```javascripts
+       [
+        {
+          "attributes": {
+            "FID": 11,
+            "Kode_Provi": 31,
+            "Provinsi": "DKI Jakarta",
+            "Kasus_Posi": 307,
+            "Kasus_Semb": 22,
+            "Kasus_Meni": 29
+          }
+        }
+      ]	
+    ```
+    
+
   - [Global Negara](https://api.kawalcorona.com/)
+
+    ```javascripts
+       [
+          {
+            "attributes": {
+            "OBJECTID": 59,
+            "Country_Region": "China",
+            "Last_Update": 1584097775000,
+            "Lat": 30.5928,
+            "Long_": 114.3055,
+            "Confirmed": 81346,
+            "Deaths": 3265,
+            "Recovered": 72355,
+            "Active": 5726
+            }
+          }
+       ]			
+    ```
+
   - [Global Positif](https://api.kawalcorona.com/positif)
+
+    ```javascripts
+       {
+	      "name": "Total Positif",
+	      "value": "307,278"
+       }
+    ```
+
   - [Global Meninggal](https://api.kawalcorona.com/meniggal)
+
+    ```javascripts
+       {
+	      "name": "Total Meninggal",
+	      "value": "13,049"
+       }
+    ```
   - [Global Sembuh](https://api.kawalcorona.com/sembuh)
+
+    ```javascripts
+       {
+	      "name": "Total Sembuh",
+	      "value": "92,373"
+       }
+    ```
 
 -------------------------------------------------------------------------
 

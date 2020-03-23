@@ -10,7 +10,7 @@ class App extends React.Component {
       <body>
         <div className="ui fixed inverted menu">
           <div className="container">
-            <a href="#" className="header item">
+            <a href="https://ekhel.github.io/kawal-corona" className="header item">
               <img className="logo" src="assets/logo/coronaicon.png" />
               JAYAPURA DEV
             </a>
@@ -46,11 +46,11 @@ class App extends React.Component {
             <div className="ui stackable inverted divided grid">
               <div className="three wide column">
                 <h4 class="ui inverted header">API Services</h4>
-                  <div class="ui inverted link list">
-                    <a href="http://api.kawalcorona.com" class="item" target="_blank">Global Data</a>
-                    <a href="http://api.kawalcorona.com/positif/" class="item" target="_blank">Global Positif</a>
-                    <a href="http://api.kawalcorona.com/meninggal" class="item" target="_blank">Global Meniggal</a>
-                    <a href="http://api.kawalcorona.com/sembuh" class="item" target="_blank">Global Sembuh</a>
+                  <div className="ui inverted link list">
+                    <a href="http://api.kawalcorona.com" className="item" target="_blank">Global Data</a>
+                    <a href="http://api.kawalcorona.com/positif/" className="item" target="_blank">Global Positif</a>
+                    <a href="http://api.kawalcorona.com/meninggal" className="item" target="_blank">Global Meniggal</a>
+                    <a href="http://api.kawalcorona.com/sembuh" className="item" target="_blank">Global Sembuh</a>
                   </div>
               </div>
               <div class="three wide column">
@@ -64,8 +64,8 @@ class App extends React.Component {
               <div class="three wide column">
                 <h4 class="ui inverted header">Hotline Corona</h4>
                 <div class="ui inverted link list">
-                  <a href="#" class="item">021-5210-411</a>
-                  <a href="#" class="item">0812-1212-3119</a>
+                  <a href="https://kawalcorona.com" className="item">021-5210-411</a>
+                  <a href="https://kawalcorona.com" className="item">0812-1212-3119</a>
                 </div>
               </div>
               <div class="seven wide column">
@@ -77,9 +77,8 @@ class App extends React.Component {
             <div class="ui inverted section divider"></div>
             <img src="assets/images/logo.png" class="ui centered mini image" />
             <div class="ui horizontal inverted small divided link list">
-              <a class="item" href="http://github.om/ekhel/kawal-corona">Join Repository</a>
+              <a class="item" href="http://github.com/Ekhel/kawal-corona">Join Repository</a>
               <a class="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Join Gitter</a>
-             
             </div>
           </div>
         </div>
