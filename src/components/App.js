@@ -11,7 +11,7 @@ class App extends React.Component {
         <div className="ui fixed inverted menu">
           <div className="container">
             <a href="https://ekhel.github.io/kawal-corona" className="header item">
-              <img className="logo" src="assets/logo/coronaicon.png" />
+              <img className="logo" src="assets/logo/coronaicon.png" alt="logo" />
               JAYAPURA DEV
             </a>
             <a href="#" className="item">Beranda</a>
@@ -38,7 +38,7 @@ class App extends React.Component {
           <span></span>
           <div className="ui segment">
             <h3 className="ui header">
-              <i className="globe icon"></i> Live data per Negara
+              <i className="globe icon"></i> Live Data per Negara
             </h3>
             <LiveGlobal />
           </div>
@@ -81,13 +81,13 @@ class App extends React.Component {
                 </div>
               </div>
               <div class="seven wide column">
-                <h4 class="ui inverted header">React Dev By</h4>
+                <h4 class="ui inverted header">Dev By</h4>
                 <p>Michael.</p>
               </div>
               
             </div>
             <div class="ui inverted section divider"></div>
-            <img src="assets/images/logo.png" class="ui centered mini image" />
+            <img src="assets/logo/coronaicon.png" class="ui centered mini image" alt="logo" />
             <div class="ui horizontal inverted small divided link list">
               <a class="item" href="http://github.com/Ekhel/kawal-corona">Join Repository</a>
               <a class="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Join Gitter</a>

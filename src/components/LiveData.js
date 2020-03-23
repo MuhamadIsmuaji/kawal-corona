@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 class LiveData extends React.Component {
-    state = ({ positif: [], meninggal: [], sembuh: [], indonesia: [] });
+    state = ({ positif: [], meninggal: [], sembuh: [], indo: [] });
 
     componentDidMount() {
         axios.get('https://api.kawalcorona.com/positif/').then(response => {
@@ -22,7 +22,7 @@ class LiveData extends React.Component {
 
         axios.get('https://api.kawalcorona.com/indonesia/').then(response => {
             console.log(response);
-            this.setState({ indonesia: response.data });
+            this.setState({ indo: response.data });
         });
     }
 
@@ -50,7 +50,7 @@ class LiveData extends React.Component {
                       <img src="assets/icon/gembira.jpg" alt="gembira"/>
                     </div>
                     <div className="content">
-                      <a href="t" className="header">{this.state.sembuh.name}</a>
+                      <a href="t" className="header center">{this.state.sembuh.name}</a>
                       <div className="description">
                         {this.state.sembuh.value} ORANG
                       </div>
@@ -73,14 +73,16 @@ class LiveData extends React.Component {
                 </div>
 
                 <div className="four wide column">
-                  <div className="ui fluid card">
+                  <div className="ui card">
                     <div className="image">
                       <img src="assets/icon/indonesia.jpg" alt="indonesia"/>
                     </div>
                     <div className="content">
-                      <a href="t" className="header">{this.state.indonesia.name}</a>
+                      <a href="t" className="header">{this.state.indo.map(indo =>(indo.name))}</a>
                       <div className="description">
-                        {this.state.indonesia.value} ORANG
+                        Positif : {this.state.indo.map(indo =>(indo.positif))} | 
+                        Sembuh : {this.state.indo.map(indo =>(indo.sembuh))} | 
+                        Death : {this.state.indo.map(indo =>(indo.meninggal))}
                       </div>
                     </div>
                   </div>

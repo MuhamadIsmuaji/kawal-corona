@@ -14,7 +14,7 @@ class LiveGlobal extends React.Component {
     render() {
         return (
             <div>
-                <table className="ui celled striped table">
+                <table className="ui purple table">
                   <thead>
                     <tr>
                       <th>ID</th>

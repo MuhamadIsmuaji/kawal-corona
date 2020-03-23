@@ -15,7 +15,7 @@ class LiveProvinsi extends React.Component {
     render() {
         return (
             <div>
-              <table className="ui inverted teal table">
+              <table className="ui pink table">
                  <thead>
                    <tr>
                       <th>ID</th>
