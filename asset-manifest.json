@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kawal-corona/static/css/main.b3ec6958.chunk.css",
-    "main.js": "/kawal-corona/static/js/main.3d3a03f7.chunk.js",
-    "main.js.map": "/kawal-corona/static/js/main.3d3a03f7.chunk.js.map",
+    "main.css": "/kawal-corona/static/css/main.8701fde6.chunk.css",
+    "main.js": "/kawal-corona/static/js/main.977642b6.chunk.js",
+    "main.js.map": "/kawal-corona/static/js/main.977642b6.chunk.js.map",
     "runtime-main.js": "/kawal-corona/static/js/runtime-main.61de4508.js",
     "runtime-main.js.map": "/kawal-corona/static/js/runtime-main.61de4508.js.map",
     "static/js/2.0f13f641.chunk.js": "/kawal-corona/static/js/2.0f13f641.chunk.js",
     "static/js/2.0f13f641.chunk.js.map": "/kawal-corona/static/js/2.0f13f641.chunk.js.map",
     "index.html": "/kawal-corona/index.html",
-    "precache-manifest.848865e9bf8a4b206bf5dae5f6ea45ec.js": "/kawal-corona/precache-manifest.848865e9bf8a4b206bf5dae5f6ea45ec.js",
+    "precache-manifest.734165ce6edc99c3ae83bbaa5aaeee4d.js": "/kawal-corona/precache-manifest.734165ce6edc99c3ae83bbaa5aaeee4d.js",
     "service-worker.js": "/kawal-corona/service-worker.js",
-    "static/css/main.b3ec6958.chunk.css.map": "/kawal-corona/static/css/main.b3ec6958.chunk.css.map",
+    "static/css/main.8701fde6.chunk.css.map": "/kawal-corona/static/css/main.8701fde6.chunk.css.map",
     "static/js/2.0f13f641.chunk.js.LICENSE.txt": "/kawal-corona/static/js/2.0f13f641.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.61de4508.js",
     "static/js/2.0f13f641.chunk.js",
-    "static/css/main.b3ec6958.chunk.css",
-    "static/js/main.3d3a03f7.chunk.js"
+    "static/css/main.8701fde6.chunk.css",
+    "static/js/main.977642b6.chunk.js"
   ]
 }
