@@ -73,7 +73,7 @@ class LiveData extends React.Component {
                 </div>
 
                 <div className="four wide column">
-                  <div className="ui card">
+                  <div className="ui fluid card">
                     <div className="image">
                       <img src="assets/icon/indonesia.jpg" alt="indonesia"/>
                     </div>
