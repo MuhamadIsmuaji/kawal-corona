@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kawal-corona/static/css/main.8701fde6.chunk.css",
+    "main.css": "/kawal-corona/static/css/main.673dcab6.chunk.css",
     "main.js": "/kawal-corona/static/js/main.977642b6.chunk.js",
     "main.js.map": "/kawal-corona/static/js/main.977642b6.chunk.js.map",
     "runtime-main.js": "/kawal-corona/static/js/runtime-main.61de4508.js",
@@ -8,15 +8,15 @@
     "static/js/2.0f13f641.chunk.js": "/kawal-corona/static/js/2.0f13f641.chunk.js",
     "static/js/2.0f13f641.chunk.js.map": "/kawal-corona/static/js/2.0f13f641.chunk.js.map",
     "index.html": "/kawal-corona/index.html",
-    "precache-manifest.734165ce6edc99c3ae83bbaa5aaeee4d.js": "/kawal-corona/precache-manifest.734165ce6edc99c3ae83bbaa5aaeee4d.js",
+    "precache-manifest.4d3d3d231ecba50a6662530bc023f8af.js": "/kawal-corona/precache-manifest.4d3d3d231ecba50a6662530bc023f8af.js",
     "service-worker.js": "/kawal-corona/service-worker.js",
-    "static/css/main.8701fde6.chunk.css.map": "/kawal-corona/static/css/main.8701fde6.chunk.css.map",
+    "static/css/main.673dcab6.chunk.css.map": "/kawal-corona/static/css/main.673dcab6.chunk.css.map",
     "static/js/2.0f13f641.chunk.js.LICENSE.txt": "/kawal-corona/static/js/2.0f13f641.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.61de4508.js",
     "static/js/2.0f13f641.chunk.js",
-    "static/css/main.8701fde6.chunk.css",
+    "static/css/main.673dcab6.chunk.css",
     "static/js/main.977642b6.chunk.js"
   ]
 }

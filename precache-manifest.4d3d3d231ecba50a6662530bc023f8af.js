@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "664a78c9427093718ff602c9d4d66644",
+    "revision": "cbfa07a24cdadac0c544cee52c67b993",
     "url": "/kawal-corona/index.html"
   },
   {
-    "revision": "576fc55330381c0140e1",
-    "url": "/kawal-corona/static/css/main.8701fde6.chunk.css"
+    "revision": "5bb874e73f476cdbad7c",
+    "url": "/kawal-corona/static/css/main.673dcab6.chunk.css"
   },
   {
     "revision": "2e811b5818dd9a39cc77",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kawal-corona/static/js/2.0f13f641.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "576fc55330381c0140e1",
+    "revision": "5bb874e73f476cdbad7c",
     "url": "/kawal-corona/static/js/main.977642b6.chunk.js"
   },
   {
