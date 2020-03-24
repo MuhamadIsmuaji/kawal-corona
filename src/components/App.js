@@ -25,8 +25,13 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-
+        
+        <p className="text container3">
+          <strong> Live Data Global & Indonesia Coronavirus</strong>
+        </p>
+        <div className="ui divider"></div>
         <div className="ui main text container2">
+          
           <div className="ui segment">
             <h3 className="ui header">
               <i className="globe icon"></i> Data Kasus Coronavirus (Covid 19) Global
@@ -63,13 +68,15 @@ class App extends React.Component {
                     <a href="http://api.kawalcorona.com/positif/" className="item" target="_blank">Global Positif</a>
                     <a href="http://api.kawalcorona.com/meninggal" className="item" target="_blank">Global Meniggal</a>
                     <a href="http://api.kawalcorona.com/sembuh" className="item" target="_blank">Global Sembuh</a>
+                    <a href="http://api.kawalcorona.com/indonesia" className="item" target="_blank">Data indonesia</a>
+                    <a href="http://api.kawalcorona.com/indonesia/provinsi" className="item" target="_blank">Data indonesia (provinsi)</a>
                   </div>
               </div>
               <div class="three wide column">
                 <h4 class="ui inverted header">Websait</h4>
                 <div class="ui inverted link list">
-                  <a href="https://kawalcorona.com" class="item">Kawal Corona</a>
-                  <a href="https://hack.co.id/" class="item">Ethical Hacker Indonesia</a>
+                  <a href="https://kawalcorona.com" target="_blank" class="item">Kawal Corona</a>
+                  <a href="https://hack.co.id/" target="_blank" class="item">Ethical Hacker Indonesia</a>
                   
                 </div>
               </div>
@@ -81,7 +88,7 @@ class App extends React.Component {
                 </div>
               </div>
               <div class="seven wide column">
-                <h4 class="ui inverted header">Dev By</h4>
+                <h4 class="ui inverted header"> Dev By</h4>
                 <p>Michael.</p>
               </div>
               
@@ -89,8 +96,8 @@ class App extends React.Component {
             <div class="ui inverted section divider"></div>
             <img src="assets/logo/coronaicon1.png" class="ui centered mini image" alt="logo" />
             <div class="ui horizontal inverted small divided link list">
-              <a class="item" href="http://github.com/Ekhel/kawal-corona">Join Repository</a>
-              <a class="item" href="https://badges.gitter.im/jayapura_dev/react.svg">Join Gitter</a>
+              <a class="item" href="http://github.com/Ekhel/kawal-corona" target="_blank">Repository</a>
+              <a class="item" href="https://badges.gitter.im/jayapura_dev/react.svg" target="_blank">Gitter</a>
             </div>
           </div>
         </div>
