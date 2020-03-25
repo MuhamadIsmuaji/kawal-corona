@@ -15,8 +15,8 @@
 * Services Third Party :
   - [Axios](https://github.com/axios/axios)
 
-* Template :
-  - Frontend ![Semantic-ui](https://semantic-ui.com)
+* Backend
+  - [Backend Kawal Corona Papua](https://github.com/Ekhel/backend-kawal-corona-papua)
 
 * HOST PaaS
   - Github Pages
