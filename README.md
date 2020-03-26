@@ -1,5 +1,4 @@
 # FRONTEND LIVE DATA KASUS CORONAVIRUS (PAPUA)
-----------------------------------------------------------------------------------
 
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
 [![Gitter](https://badges.gitter.im/jayapura_dev/react.svg)](https://gitter.im/jayapura_dev/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
