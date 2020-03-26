@@ -1,4 +1,4 @@
-# LIVE DATA PENYEBARAN VIRUS CORONA (COVID 19)
+# FRONTEND LIVE DATA KASUS CORONAVIRUS (PAPUA)
 ----------------------------------------------------------------------------------
 
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
@@ -7,7 +7,6 @@
 ## System Requirements :
 * Bahasa Utama :
   - Node JS
-  - JavaScripts
 
 * Framework :
   - React
