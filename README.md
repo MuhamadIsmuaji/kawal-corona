@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.com/Ekhel/kawal-corona.svg?branch=master)](https://travis-ci.com/Ekhel/kawal-corona)
 [![Gitter](https://badges.gitter.im/jayapura_dev/react.svg)](https://gitter.im/jayapura_dev/react?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+![Flickr](https://live.staticflickr.com/65535/49699875306_d9f82bedca_k.jpg)
+
 ## System Requirements :
 * Bahasa Utama :
   - Node JS
